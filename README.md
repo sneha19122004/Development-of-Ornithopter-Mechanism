@@ -43,9 +43,29 @@ The core of the ornithopter is a **crank-rocker four-bar mechanism** that conver
 
 The complete airframe and mechanism were designed in **Autodesk Fusion 360**. 
 
-> (https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/front-view.png) — full flap stroke extended
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/front-view.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/front-view.png" alt="3D CAD Model of Ornithopter" width="700"/>
+</a>
+</p>
 
-> **Gear train close-up** — showing the 1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/gear-mechanism.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/gear-mechanism.png" alt="1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization" width="700"/>
+</a>
+</p>
+
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-view.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-view.png" width="700"/>
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-back-view.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-back-view.png" width="700"/>
+</a>
+</p>
+
 
 The ring-frame fuselage body houses the motor, gear train, and electronics bay while keeping the structure lightweight.
 
