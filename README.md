@@ -10,11 +10,6 @@ This project is the complete design and build of a **radio-controlled ornithopte
 
 Unlike conventional UAVs, an ornithopter must solve a fundamentally harder problem: **converting continuous rotary motor torque into a periodic, asymmetric flapping stroke** that generates both lift and thrust simultaneously. Every subsystem — mechanical, electronic, and software — was designed around this constraint.
 
-**This repository documents:**
-- The full mechanical design (CAD models, gear train, flapping linkage)
-- The avionics architecture (dual-controller: Dreamfly F722 FC + ESP32)
-- The intelligent gimbal/tail controller firmware (ESP32, Arduino/PlatformIO)
-- Video iterations showing the mechanism in motion
 
 ---
 
@@ -46,15 +41,13 @@ The core of the ornithopter is a **crank-rocker four-bar mechanism** that conver
 
 ### CAD Design
 
-The complete airframe and mechanism were designed in **SolidWorks**. The screenshots below show different configuration states:
+The complete airframe and mechanism were designed in **Autodesk Fusion 360**. 
 
-> **Wing folded / stowed configuration** — mechanism at rest
-
-> **Wing spread / extended configuration** — full flap stroke extended
+> CAD-model/front-view.png — full flap stroke extended
 
 > **Gear train close-up** — showing the 1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization
 
-The ring-frame fuselage body (visible in the CAD) houses the motor, gear train, and electronics bay while keeping the structure lightweight.
+The ring-frame fuselage body houses the motor, gear train, and electronics bay while keeping the structure lightweight.
 
 ---
 
