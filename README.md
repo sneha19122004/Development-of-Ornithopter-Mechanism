@@ -247,9 +247,19 @@ ornithopter/
 ## Video Iterations
 
 The project went through multiple physical build and test iterations. Videos documenting each stage are included in the `media/` folder:
+First Iteration
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/first-iteration.mp4">
+<img src="https://img.shields.io/badge/%20Watch%20Demo-Physical%20Robot-green?style=for-the-badge" alt="Watch First Iteration"/>
+</a>
+</p>
 
-> First Iteration → [`/media`](https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/first-iteration.mp4)
-> Second Iteration → [`/media`](https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/second-iteration.mp4)
+Second Iteration
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/second-iteration.mp4">
+<img src="https://img.shields.io/badge/%20Watch%20Demo-Physical%20Robot-green?style=for-the-badge" alt="Watch Second Iteration"/>
+</a>
+</p>
 
 ---
 
