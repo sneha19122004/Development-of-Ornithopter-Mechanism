@@ -43,7 +43,7 @@ The core of the ornithopter is a **crank-rocker four-bar mechanism** that conver
 
 The complete airframe and mechanism were designed in **Autodesk Fusion 360**. 
 
-> CAD-model/front-view.png — full flap stroke extended
+> (https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/front-view.png) — full flap stroke extended
 
 > **Gear train close-up** — showing the 1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization
 
