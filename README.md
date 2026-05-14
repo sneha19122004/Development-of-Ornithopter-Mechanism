@@ -250,14 +250,14 @@ The project went through multiple physical build and test iterations. Videos doc
 
 First Iteration
 <p align="center">
-<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/first-iteration.mp4">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/first.mp4">
 <img src="https://img.shields.io/badge/%20Watch%20Demo-First%20Iteration-green?style=for-the-badge" alt="Watch First Iteration"/>
 </a>
 </p>
 
 Second Iteration
 <p align="center">
-<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/second-iteration.mp4">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/second.mp4">
 <img src="https://img.shields.io/badge/%20Watch%20Demo-Second%20Iteration-green?style=for-the-badge" alt="Watch Second Iteration"/>
 </a>
 </p>
