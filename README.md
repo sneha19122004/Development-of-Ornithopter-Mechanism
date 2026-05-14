@@ -326,4 +326,8 @@ The project sits at the intersection of biomimetic robotics, embedded systems, a
 
 ---
 
+## License
+
+This project is submitted as an academic mini-project under APJ Abdul Kalam Technological University. All rights reserved by the authors.
+
 *Designed & built by [Sneha Alphonso Francis](https://github.com/sneha19122004)*
