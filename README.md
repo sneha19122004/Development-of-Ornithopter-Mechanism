@@ -48,13 +48,13 @@ The complete airframe and mechanism were designed in **Autodesk Fusion 360**.
 <img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/front-view.png" alt="3D CAD Model of Ornithopter" width="700"/>
 </a>
 </p>
-
+3D CAD Model of Ornithopter
 <p align="center">
 <a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/gear-mechanism.png">
-<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/gear-mechanism.png" alt="1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization" width="700"/>
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/gear-mechanism.png" alt="1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization" width="300"/>
 </a>
 </p>
-
+1:3 reduction cluster, crank pins, rocker arms, and the secondary small gear driving the timing synchronization
 <p align="center">
 <a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-view.png">
 <img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/CAD-model/orthographic-view.png" width="700"/>
@@ -117,6 +117,19 @@ POWER: 3S LiPo → Power Distribution Board → ESC + FC + ESP32
 
 The **Dreamfly F722** handles motor ESC output and the main RC link. But controlling a tail gimbal with automatic torque compensation logic required a dedicated microcontroller. The **ESP32** reads RC channel data from the F722 via **MSP (MultiWii Serial Protocol)** over UART, then runs its own servo control loop independently. This keeps latency low on both paths.
 
+Block Diagram
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/electronics/block-diagram.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/electronics/block-diagram.png" width="500"/>
+</a>
+</p>
+
+Wiring Diagram
+<p align="center">
+<a href="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/electronics/wiring-diagram.png">
+<img src="https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/electronics/wiring-diagram.png" width="500"/>
+</a>
+</p>
 ---
 
 ## Firmware — Intelligent Gimbal Controller
@@ -234,14 +247,8 @@ ornithopter/
 ## Video Iterations
 
 The project went through multiple physical build and test iterations. Videos documenting each stage are included in the `media/` folder:
-
-- **Iteration 1** — First gear train assembly, bench test of crank-rocker mechanism
-- **Iteration 2** — Full wing span attached, manual flap stroke verification  
-- **Iteration 3** — Electronics integrated, motor-driven flap under RC control
-- **Iteration 4** — Gimbal tail servo response test with ESP32 firmware live
-
-> *Upload your video files to the `media/` directory and link them here.*
-
+> First Iteration → [`/media`]([https://github.com/sneha19122004/amphibious-bot/blob/master/working-video](https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/first-iteration.mp4))
+> Second Iteration → [`/media`]([https://github.com/sneha19122004/amphibious-bot/blob/master/working-video](https://github.com/sneha19122004/Development-of-Ornithopter-Mechanism/blob/main/media/second-iteration.mp4))
 ---
 
 ## Build Notes & Lessons Learned
@@ -295,7 +302,7 @@ The project went through multiple physical build and test iterations. Videos doc
 
 ## About This Project
 
-This ornithopter was a solo end-to-end engineering project covering:
+This ornithopter was an engineering project covering:
 
 - **Mechanism design** — four-bar linkage kinematics, gear train sizing, CAD in SolidWorks
 - **Avionics integration** — dual-controller architecture, MSP serial protocol
